@@ -1,6 +1,6 @@
 const param = {
     "url": "https://api.openweathermap.org/data/2.5/",
-    "appid": "35dc21b595fe561659ba6f581970f670"
+    "appid": "****"
 }
 
 const cities = [
