@@ -1,0 +1,52 @@
+.container {
+    margin: 70px auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #4473ea, rgba(95, 241, 222, 0.71));
+    color: white;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.line {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-select {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 50px;
+    margin: 20px auto;
+    width: 250px;
+    text-align: center;
+}
+
+.bg {
+    background-image: url('/img/pexels-filirovska-8257779.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.temp{
+    font-size: 25px;
+    text-align: center
+}
+.city-select {
+    font-size: 25px;
+    text-align: center;
+}
+.iconWeather {
+    width: 80px;
+    height: 80px;
+}
