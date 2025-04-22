@@ -1,4 +1,3 @@
-
 const cities = [
     { id: 6167863, name: "Toronto" },
     { id: 3088171, name: "Poznan" },
