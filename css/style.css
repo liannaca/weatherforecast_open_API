@@ -33,7 +33,7 @@ h1, h2 {
 }
 
 .bg {
-    background-image: url('img/pexels-filirovska-8257779.jpg');
+    background-image: url('/img/pexels-filirovska-8257779.jpg');
     background-size: cover;
     background-position: center;
 }
