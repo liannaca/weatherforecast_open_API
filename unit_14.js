@@ -1,6 +1,6 @@
 const param = {
     "url": "https://api.openweathermap.org/data/2.5/",
-    "appid": "***"
+    "appid": "35dc21b595fe561659ba6f581970f670"
 }
 
 const cities = [
@@ -50,7 +50,7 @@ function showWeather(data) {
     document.querySelector('.cityName').innerHTML = dataNameOut;
     document.querySelector('.temp').innerHTML = dataTempOut;
     document.querySelector('.description').innerHTML = dataDescription;
-    document.querySelector('.iconWeather').src = `http://openweathermap.org/img/wn/${dataIcon}.png`;
+    document.querySelector('.iconWeather').src = `https://openweathermap.org/img/wn/${dataIcon}.png`;
     document.querySelector('.windSpeed').innerHTML = dataWindSpeed;
     document.querySelector('.windDirec').innerHTML = dataWindDirection;
     document.querySelector('.pressure').innerHTML = dataPressure;
